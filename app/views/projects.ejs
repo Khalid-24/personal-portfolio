@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <!-- head section -->
+  <%- include ('partials/head.ejs') %>
+  <body>
+    <!-- header section -->
+    <%- include ('partials/main_nav.ejs') %>
+
+    <main class="container c-container mt-5 mb-5 pb-5">
+      <h1 class="display-4 text-center">My Projects</h1>
+      <section class="row mt-5 justify-content-center mx-0">
+        <div class="card pt-4 col-lg-3">
+          
+          <img
+            src="/images/city.png"
+            class="card-img-top"
+            alt="My City"
+            width="100%"
+            height="144"
+          />
+          <div class="card-body d-flex flex-column text-center">
+            <h5 class="card-title">My City</h5>
+            <p class="card-text mb-3">
+              This project showcases a city skyline with buildings and a dynamic sky. The sky changes from day to night or night to day based on the theme.
+            </p>
+            <a
+              href="https://github.com/Khalid-24/My-City"
+              class="btn btn-outline-secondary mt-auto"
+              target="_blank"
+              >Visit Project</a
+            >
+          </div>
+        </div>
+        <div class="card pt-4 col-lg-3 mt-4 mt-lg-0 ms-lg-5">
+          
+          <img           
+            src="/images/js.png"
+            class="card-img-top object-fit-contain"
+            alt= "JavaScript Documentaion"
+            width="100%"
+            height="144"
+          />
+          <div class="card-body d-flex flex-column text-center">
+            <h5 class="card-title">JavaScript Documentaion</h5>
+            <p class="card-text mb-3">
+              This website serves as a comprehensive resource for learning and understanding JavaScript. Whether you are a beginner looking to grasp the fundamentals or an experienced developer seeking reference material, this site has you covered.
+            </p>
+            <a
+              href="https://github.com/Khalid-24/Technical-Document"
+              class="btn btn-outline-secondary mt-3 mt-auto"
+              target="_blank"
+              >Visit Project</a
+            >
+          </div>
+        </div>
+        <div class="card pt-4 col-lg-3 mt-4 mt-lg-0 ms-lg-5">
+          <img
+            src="/images/typography.png"
+            class="card-img-top object-fit-contain"
+            alt="Typography"
+            width="100%"
+            height="144"
+          />
+          <div class="card-body d-flex flex-column text-center">
+            <h5 class="card-title">Typography</h5>
+            <p class="card-text mb-3">
+              This project features a dynamic and visually appealing nutrition info label made with HTML and CSS. The label uses typographic principles to deliver clear and structured nutritional information. The minimalist design guarantees a user-friendly experience.
+            </p>
+            <a
+              href="https://github.com/Khalid-24/Typography"
+              class="btn btn-outline-secondary mt-3"
+              target="_blank"
+              >Visit Project</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--footer section-->
+    <%- include ('partials/footer.ejs') %>
+    <!--script section-->
+    <%- include ('partials/scripts.ejs') %>
+  </body>
+</html>

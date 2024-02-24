@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <!-- head section -->
+  <%- include ('partials/head.ejs') %>
+  <body>
+    <!-- header section -->
+    <%- include ('partials/main_nav.ejs') %>
+
+    <main class="container c-container mt-5 mb-5 pb-5">
+      <section
+        class="d-flex flex-wrap justify-content-center justify-content-md-between"
+      >
+        <picture class="flex-shrink-0 c-avatar order-md-1 mb-3 mb-md-0">
+          <img
+            src="/images/khalid.png"
+            alt="my picture"
+            width="100%"
+            class="object-fit-cover rounded-circle"
+          />
+        </picture>
+        <article class="c-bio-container order-md-0 text-center text-md-start">
+          <h1 class="display-4">About Me</h1>
+          <ul class="lead list-style-none mt-4 text-body">
+            <li>
+              Hello, I'm Md Khalid Safiullah, a new front-end developer
+              specializing in crafting performant websites and user interfaces
+              for web applications. With expertise in HTML, CSS and JavaScript
+              I create seamless and engaging web experiences that
+              satisfies user expectations.
+            </li>
+          </ul>
+          <a href="/file/resume.pdf" class="btn btn-light mt-4" download
+            >Click To Download Resume</a
+          >
+        </article>
+      </section>
+    </main>
+
+    <!--footer section-->
+    <%- include ('partials/footer.ejs') %>
+
+    <!--script section-->
+    <%- include ('partials/scripts.ejs') %>
+  </body>
+</html>
